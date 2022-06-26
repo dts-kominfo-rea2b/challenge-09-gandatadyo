@@ -1,4 +1,39 @@
 .App {
   text-align: center;
+}
+
+body{
+  background-color: greenyellow;
+}
+
+.imgBorder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.card-contact {
   display: flex;
+  justify-content: center;
+}
+
+.card-body-contact {
+  display: flex;
+  width: 300px;
+  margin-bottom: 10px;
+  background-color: green;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+
+.card-text{
+  text-align: center;
+  width: 100%;
+  
+}
+
+.card-text div{
+  margin-bottom: 5px;
+  color: white;
 }
