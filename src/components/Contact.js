@@ -3,7 +3,7 @@
 import React from 'react';
 
 const Contact = (props) => {
-    const itemContact = props.item
+    const itemContact = props.data
     return (
         <div className='card-contact'>
             <div className='card-body-contact' >
